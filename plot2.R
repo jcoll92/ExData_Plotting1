@@ -12,9 +12,6 @@ householddata$Time<-strptime(paste(householddata$Date,householddata$Time),"%F %T
 
 hhdata <- subset(householddata,householddata$Date %in% as.Date(c("2007-02-01", "2007-02-02")))
 
-library(dplyr)
-library (lubridate)
-
 # The data.frame titled 'hhdata' dimensions are 2880 observations of 9 variables. 
 
 
