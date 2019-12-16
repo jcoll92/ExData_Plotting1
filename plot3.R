@@ -17,7 +17,7 @@ hhdata <- subset(householddata,householddata$Date %in% as.Date(c("2007-02-01", "
 
 # Plot3.png is created with the following code:
 
-png(file = "C:/Users/john.colley/OneDrive - Veritec Pty Ltd/Desktop/ExData_Plotting1/plot3.png", width = 480, height = 480)
+png(file = "filelocation/plot3.png", width = 480, height = 480)
 plot(hhdata$Time, hhdata$Sub_metering_1, ylab = "Energy sub metering", xlab = "", pch = ".", type = "l", col = "black")
 points(hhdata$Time, hhdata$Sub_metering_2, col = "red", type = "l")
 points(hhdata$Time, hhdata$Sub_metering_3, col = "blue", type = "l")
